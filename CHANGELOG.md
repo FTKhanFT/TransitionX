@@ -1,4 +1,9 @@
-# 1.2.0
+# 1.2.1
+
+- Updated documentation
+- Added Repository, issue tracker and homepage
+
+## 1.2.0
 
 - Updated Readme
 - Added Example Project

@@ -1,17 +1,17 @@
 # TransitionX
 
-> ```Transition animation for Flutter Navigation```
+```Transition animation for Flutter Navigation```
 
 ## Getting Started
 
-> First you have to add the package dependency in ```pubspec.yml```
+First you have to add the package dependency in ```pubspec.yml```
 
     transition_x: ^latest
-> Get th version from [pub.dev](https://pub.dev/packages/transition_x)
+Get th version from [pub.dev](https://pub.dev/packages/transition_x)
 
 ### To use with ```Navigator.of(context).push()```
 
->In your push() 0r pushReplacement() add the Transition like this.
+In your push() 0r pushReplacement() add the Transition like this.
 
     Navigator.of(context).push(
         TransitionX(
@@ -23,7 +23,7 @@
 
 ### To use with ```Navigator.of(context).pushNamed()```
 
->In your Material App's ```onGenerateRoute``` add the transitions. Make sure that the the route name you are using in ```onGenerateRoute``` is not defined in the routes list or anywhere in the ```Material App```
+In your Material App's ```onGenerateRoute``` add the transitions. Make sure that the the route name you are using in ```onGenerateRoute``` is not defined in the routes list or anywhere in the ```Material App```
 
     onGenerateRoute: (settings) {
         switch (settings.name) {

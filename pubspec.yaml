@@ -2,6 +2,9 @@ name: transition_x
 description: Transition animation for Flutter Navigatior. Use it with the existing Flutter Navigator.of.
 version: 1.2.0
 homepage: https://pub.dev/packages/transition_x
+repository: https://github.com/FTKhanFT/TransitionX
+issue_tracker: https://github.com/FTKhanFT/TransitionX/issues
+documentation: https://github.com/FTKhanFT/TransitionX#getting-started
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
