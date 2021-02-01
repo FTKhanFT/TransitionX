@@ -8,7 +8,7 @@ First you have to add the package dependency in ```pubspec.yml```
 
     transition_x:
         git:
-            url: git@github.com:FTKhanFT/TransitionX.git
+            url: https://github.com/FTKhanFT/TransitionX.git
             ref: main
 
 ### To use with ```Navigator.of(context).push()``` -

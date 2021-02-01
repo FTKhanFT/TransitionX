@@ -6,16 +6,36 @@ part 'transitionType.dart';
 class TransitionX extends PageRouteBuilder {
   static const animationDuration = Duration(seconds: 1);
 
+  /// Destination Widget
   final Widget widget;
+
+  /// Set Bounce
   final bool bounce;
+
+  /// Sets duration of transition animation
   final Duration duration;
+
+  /// Sets transition animation type
   final TransitionType transitionType;
+
+  /// Sets curve of animation type [TransitionType.slideToRightWithFade]
   final Curve curve;
+
+  /// TransitionX animation constractor
   TransitionX({
+    /// Destination widget
     @required this.widget,
+
+    /// Transition type
     this.transitionType = TransitionType.fade,
+
+    /// Set Bounce
     this.bounce = true,
+
+    /// Sets curve of animation type [TransitionType.slideToRightWithFade]
     this.curve = Curves.linear,
+
+    /// Duration of animation
     this.duration = TransitionX.animationDuration,
   }) : super(
           transitionDuration: duration,
