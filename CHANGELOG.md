@@ -1,4 +1,9 @@
-# 1.0.0
+# 1.2.0
+
+- Updated Readme
+- Added Example Project
+
+## 1.0.0
 
 - Initial Release
 - Added 8 animations

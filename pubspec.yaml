@@ -1,8 +1,7 @@
 name: transition_x
-description: Transition for Navigator.
-version: 1.0.0
-author: Tanvir Ahmed Khan
-homepage: https://github.com/FTKhanFT/TransitionX
+description: Transition animation for Flutter Navigatior. Use it with the existing Flutter Navigator.of.
+version: 1.2.0
+homepage: https://pub.dev/packages/transition_x
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
